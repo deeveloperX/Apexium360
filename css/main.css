@@ -170,6 +170,14 @@ p.lead {
   margin-bottom: 3.6rem;
 }
 
+.text-gray{
+  color: #767676;
+}
+
+.radius-10{
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   p.lead {
     font-size: 2rem;
@@ -415,6 +423,7 @@ img.pull-left {
   padding: 0 20px;
   padding-top: 20px;
   border-radius: 20px;
+  background-color: #fff;
   box-shadow: -5px 5px 13px 3px rgba(114,114,114,0.7);
   -webkit-box-shadow: -5px 5px 13px 3px rgba(114,114,114,0.7);
   -moz-box-shadow: -5px 5px 13px 3px rgba(114,114,114,0.7);
@@ -423,10 +432,6 @@ img.pull-left {
 @media only screen and (max-width: 1024px) {
   .bgrid {
     padding: 0 18px;
-  }
-  .bgrid:nth-child(4){
-    background-color: red;
-    margin-left: 4px;
   }
 }
 
@@ -439,6 +444,7 @@ img.pull-left {
 @media only screen and (max-width: 600px) {
   .bgrid {
     padding: 0 10px;
+    padding-top: 20px;
   }
 }
 
@@ -2114,8 +2120,39 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #services {
   background: #ebebeb;
+  /* background-image: url(../images/section-bg.jpg); */
   padding-top: 15rem;
   padding-bottom: 12rem;
+}
+
+
+
+
+/* ===================================================================
+ *  13. portfolio - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+ #portfolio{
+  background: #FFFFFF;
+  padding: 15rem 0 9rem;
+  text-align: center;
+  min-height: 600px;
+ }
+ #portfolio h1::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-align-center{
+    flex-direction: column;
+  }
+  .width{
+    width: 100%;
+  }
 }
 
 

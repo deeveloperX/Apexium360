@@ -172,7 +172,7 @@
       	duration: 600,
       	easing: 'ease-in-sine',
       	delay: 200,
-			once: true,
+			once: false,
 			disable: 'mobile'
     	});
 

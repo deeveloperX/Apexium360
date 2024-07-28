@@ -262,6 +262,7 @@ template {
 }
 
 
+
 /* ===================================================================
  *  02. basic/base setup styles - (_basic.scss)
  *
@@ -891,6 +892,16 @@ textarea {
   margin-right: auto;
   text-align: center;
 }
+
+.text-justify{
+  text-align: justify;
+}
+
+.flex-align-center{
+  display: flex;
+  align-items: center;
+}
+
 
 
 /*# sourceMappingURL=base.css.map */
