@@ -173,7 +173,7 @@
       	easing: 'ease-in-sine',
       	delay: 200,
 			once: false,
-			disable: 'mobile'
+			enable: 'mobile'
     	});
 
 	};
