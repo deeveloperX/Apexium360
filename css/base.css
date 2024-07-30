@@ -897,6 +897,11 @@ textarea {
   text-align: justify;
 }
 
+.flex-justify-center{
+  display: flex;
+  justify-content: center;
+}
+
 .flex-align-center{
   display: flex;
   align-items: center;

@@ -596,7 +596,7 @@ input[type="password"],
 textarea,
 select {
   display: block;
-  height: 6rem;
+  height: 5rem;
   padding: 1.5rem 2rem;
   border: 0;
   outline: none;
@@ -663,7 +663,7 @@ select {
 }
 
 textarea {
-  min-height: 25rem;
+  min-height: 15rem;
 }
 
 input[type="email"]:focus,
@@ -2366,6 +2366,33 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   #testimonial-slider p {
     font-size: 2rem;
   }
+}
+
+
+
+/* ===================================================================
+ *  15. contact-us styles - (_site-layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+ #contactpage{
+  background: #FFFFFF;
+  padding: 15rem 0 9rem;
+  text-align: center;
+  min-height: 600px;
+ }
+ #contactpage h1::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+#contactform{
+  width: 60%;
+}
+#contactform > input,
+#contactform > textarea{
+  width: 100%;
 }
 
 
